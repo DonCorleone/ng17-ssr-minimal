@@ -11,7 +11,9 @@ import { RouterOutlet } from '@angular/router';
 
     <router-outlet></router-outlet>
   `,
-  styles: [],
+  styles: `h1 {
+    color: red;
+  }`,
 })
 export class AppComponent {
   title = 'v17-ssr-minimal';
